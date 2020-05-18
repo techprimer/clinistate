@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.box
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    float: left;
+}
+
+.button-div
+{
+   
+    width:max-content;
+    height: auto;
+    background: #68C9CB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 52px #233D631A;
+    opacity: 1;
+}
+
+#dashboard
+{
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+#dashboard:hover 
+{
+    background-color: #FF4451; 
+    transition: 1s ease; 
+    color: white!important;
+}
+#dashboard:hover *
+{
+    color:white!important;
+    filter: brightness(10);
+}
+#value
+{
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+#value:hover 
+{
+    background-color: #8F68CB; 
+    transition: 1s ease; 
+    color: white!important;
+}
+#value:hover *
+{
+    color:white!important;
+    filter: brightness(10);
+}
+#protect
+{
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+#protect:hover 
+{
+    background-color: #68C9CB; 
+    transition: 1s ease; 
+    
+}
+#protect:hover *
+{
+    color:white!important;
+    filter: brightness(10);
+    
+}
+.month
+{
+    
+    font-size: 31px;
+    color:white;
+    border-radius: 10px 0 0 10px;
+    padding:15px 15px 15px 15px;
+    background-color: #68C9CB;
+    width: 100%;
+}
+.annual
+{
+   
+    font-size: 31px;
+    border-radius: 0 10px 10px 0;
+    padding:15px 15px 15px 15px;
+    background-color:white;
+    width: 100%;
+
+}
+#testinomial
+{
+    width: 100%;
+    background: transparent linear-gradient(90deg, #F3FFE7 0%, #DEFFF0 100%) 0% 0% no-repeat padding-box;
+    color:#233D63;
+    margin-top: 100px;
+}
+#test-div
+{
+    background-color:white ;
+    width: 60%;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 100px;
+ 
+}
+#test-div p
+{
+    padding: 200px 120px 100px 120px!important;    
+}
+
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:30px;
+    }
+    .button-div
+    {
+        width: 100%;
+    }
+    
+    h6
+    {
+        font-size: 14px;
+    }
+    h2
+    {
+        font-size: 25px;
+    }
+    #para p
+    {
+    font-size: 17px!important;
+    }
+    #para-tick p
+    {
+    font-size: 15px!important;
+    }
+    #para-tick img
+    {
+        width: 15%;
+        
+    }
+    .month,.annual
+    {
+        font-size: 15px;
+      
+    }
+    #para-plan p
+    {
+    font-size: 15px!important;
+    }
+    #para-plan img
+    {
+        width: 25%;
+        
+    }
+    #test-div
+    {
+    background-color:white ;
+    width: 80%;
+    font-size:15px;
+    font-weight: 500;
+    padding-bottom: 100px;
+ 
+    }
+    #test-div p
+    {
+    padding: 100px 60px 50px 60px!important;    
+    }
+
+    
+    
+}

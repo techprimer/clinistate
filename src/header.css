@@ -1,0 +1,44 @@
+html,body
+{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.navbar
+{
+   height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    top: 0.5px;
+    opacity: 1;
+}
+.navbar-brand
+{
+    margin-left: 192px;
+    width: 236px!important;
+    top: 0.5px;
+
+}
+.nav-class
+{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.nav-link
+{
+    color: black!important;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar-brand
+    {
+        margin-left: 10px;
+    }
+
+
+}
